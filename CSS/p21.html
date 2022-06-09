@@ -1,0 +1,97 @@
+<!--
+    CSS for hyperlinks
+a:link - default - unvisited link
+a:visited - visited link
+a:hover - when the mouse cursor is over the link
+a:active -when the link is clicked
+-->
+
+<!--
+    Overflow and MaxWidth/Height
+Overflow tells the browser how to handle
+content that does not fit within the element.
+Max width and height force on responsive when
+available to restrict the height value to the max. 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eswara Rohan</title>
+        <link rel="icon" href="https://www.google.com/images/branding/product/ico/googleg_alldp.ico"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>
+
+            table{
+                width:300px;
+            }
+
+            th{
+                background-color:red;
+                color:white;
+            }
+
+            th,td{
+                text-align:center;
+                padding:5px;
+                border:1px solid #ddd;
+            }
+
+            tr:nth-child(odd){
+                background-color:#000;
+                color:#fff;
+            }
+
+            textarea{
+                border:1px solid #888;
+                overflow-y:hidden;
+                max-width: 500px;
+                height:300px;
+            }
+ 
+
+        </style>
+
+    </head>
+    <body>
+        <textarea>Hello World, Just some boring text about nothing at all</textarea>
+
+        <ul>
+            <li><a href="#home">Home</a> </li>
+            <li><a href="#About">About</a></li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Rohan</td>
+                <td>Eswara</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Katyayani</td>
+                <td>Eswara</td>
+                <td>22</td>
+            </tr>
+
+            <tr>
+                <td>Chandra Sekhar</td>
+                <td>Eswara</td>
+                <td>51</td>
+            </tr>
+
+        </table>
+
+
+        <a href="https//placeholder.com/">
+        <img src="https://via.placeholder.com/350x150"></a>
+
+    </body>
+</html>

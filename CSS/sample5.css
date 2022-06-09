@@ -1,0 +1,41 @@
+        @import url('https://fonts.googleapis.com/css?family=Pacifico');
+        .SecondPara{
+            font-family: 'Pacifico', cursive;
+            font-weight: bolder;
+            color:rgb(4, 0, 0);
+            font-size:25px;
+            font-style: italic;
+            background-color:antiquewhite;
+        }  
+
+        .title{
+            background-color:antiquewhite;
+        }
+        .title2{
+            background-color:yellow;
+        }
+        
+        .red{
+            color:red;
+        }
+
+        .Life{
+            color:blue;
+        }
+
+        .Kalavathi{
+            color:blue;
+        }
+
+        .justify{
+            text-align:justify;
+        }
+
+        .left{
+            text-align: left;
+        }
+
+
+        .footer{
+            background-color:lightgray;
+        }   

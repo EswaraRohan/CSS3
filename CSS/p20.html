@@ -1,0 +1,69 @@
+<!--
+    CSS for hyperlinks
+a:link - default - unvisited link
+a:visited - visited link
+a:hover - when the mouse cursor is over the link
+a:active -when the link is clicked
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eswara Rohan</title>
+        <link rel="icon" href="https://www.google.com/images/branding/product/ico/googleg_alldp.ico"/>'
+        <style>
+            a{
+                text-decoration: none;
+            }
+
+            a:link{
+                color:red;
+            }
+
+            a:visited{
+                color:green;
+            }
+
+            a:hover{
+                color:pink;
+            }
+
+            a:active{
+                color:aqua;
+            }    
+            
+            
+            div:hover{
+                background-color:blue;
+                font-size: 2em;
+            }
+
+            .container div:last-child{
+                background-color:yellow;
+                font-size:large;
+            }
+
+            div:nth-child(odd){
+                background-color:purple;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#7">Services</a></li>
+            <li><a href="#5">About</a></li>
+            <li><a href="#4">Contact</a></li>
+        </ul>
+        <section class="container">
+            <div class="text1">Example 1</div>
+            <div class="text2">Example 2</div>
+            <div class="text3">Example 3</div>
+        </section>
+        <div>Example 4</div>
+
+    </body>
+</html>

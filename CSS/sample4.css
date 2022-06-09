@@ -1,0 +1,8 @@
+.normal {
+    list-style-type: upper-alpha;
+  }
+  
+  /* or use the shortcut "list-style": */
+  .shortcut {
+    list-style: url('https://courses.iiit.ac.in/theme/image.php/boost/theme/1651824935/favicon"/');
+  }

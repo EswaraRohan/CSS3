@@ -1,0 +1,46 @@
+<!--CSS Positioning - https://developer.mozilla.org/en-US/docs/Web/CSS/position -->
+
+<!--
+● Static : The default value places the item in the normal flow
+● Relative : The item is placed in the normal flow, and then shifted or offset from that
+position. Subsequent flow items are laid out as if the item had not been moved.
+● Absolute : Specifies absolute positioning. The element is positioned in relation to its nearest
+non-static ancestor.
+● Fixed : The item is absolutely positioned in a fixed position on the screen even as the rest of
+the document is scrolled
+● left,top,right,bottom
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eswara Rohan</title>
+        <link rel="icon" href="https://www.google.com/images/branding/product/ico/googleg_alldp.ico"/>
+        <style>
+        .container div{
+            border:1px solid blue;
+            width:300px;
+            height:300px;
+        }
+
+        .text1{
+            position:Absolute;
+            background-color:red;
+            left:100px;
+            top:100px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <section class="container">
+            <div class="text1">Example 1</div>
+            <div class="text2">Example 2</div>
+            <div class="text3">Example 3</div>
+        </section>
+
+        <div>Example 4</div>
+
+        
+    </body>
+</html>
