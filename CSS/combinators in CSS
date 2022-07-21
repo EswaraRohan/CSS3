@@ -1,0 +1,110 @@
+Combinators in CSS
+
+Combinators define relationship between two selectors
+
+1)Descendant selector - ' '
+2)Child Selctor - '>'
+3)Adjacent sibling selector - '+'
+4)General Sibling Selector - '~'
+
+
+
+
+
+
+1) Descendant Selctor
+Eg., 
+header p{
+
+}
+
+This selects all paragraphs in header
+
+
+
+
+
+
+
+2)Child Selector - '>'
+syntax - selectorA > SelectorB
+
+selects all the elements matching selectorB which are direct descendants of the elements matching selectorA
+table
+Eg.,
+
+<header>
+    <p>
+
+    </p>
+    <div>
+        <p>
+
+        </p>
+    </div>
+</header>
+
+if we use header>p, then it selects only first p, not the one inside div
+
+
+
+
+
+
+
+3)Adjacent sibling selector - '+'
+
+syntax - selectorA + selectorB
+
+selects the elements matching selectorB which is right next to the elements 
+matching selectorA. //// Adjacent siblings
+
+Eg.,
+<div>
+    <p>
+        1
+    </p>
+    <p>
+        2
+    </p>
+</div>
+<p>
+    3
+</p>
+<p>
+    4
+</p>
+
+
+if div + p => 3rd paragraph is selected
+As after div first paragraph
+
+
+
+
+
+
+4) General sibling selector
+
+syntax - selectorA ~ selectorB
+
+selects all the elements matching selectorB which are the siblings of the elements matching selectorA.
+
+E.g.,
+<div>
+    <p>
+        1
+    </p>
+    <p>
+        2
+    </p>
+</div>
+<p>
+    3
+</p>
+<p>
+    4
+</p>
+
+
+Here 3,4 will be selected.
